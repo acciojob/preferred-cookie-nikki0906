@@ -1,4 +1,5 @@
 //your JS code here. If required.
+
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('preferencesForm');
     const fontSizeInput = document.getElementById('fontsize');
@@ -37,5 +38,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
         document.cookie = `fontsize=${fontSize}; path=/; max-age=31536000`; // Expires in 1 year
         document.cookie = `fontcolor=${fontColor}; path=/; max-age=31536000`; // Expires in 1 year
-   
-
+    });
+});
